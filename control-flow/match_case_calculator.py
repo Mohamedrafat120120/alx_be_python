@@ -14,12 +14,12 @@ match choose_operation:
         
     case  "*":
         print(f"The result is {num1 * num2}.")
-        
-    case _ if choose_operation == "/" and num2 ==0:
-        print("canot divide by zero")
     
     case "/":
-        print(f"The result is {num1/num2}.")    
+        if  num2 ==0:
+           print("canot divide by zero")
+        else:   
+           print(f"The result is {num1/num2}.")    
     case _ :
         print("you must choose from this four operations only (+, -, *, /):")    
             
