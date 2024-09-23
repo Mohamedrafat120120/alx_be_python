@@ -1,7 +1,7 @@
-num1 = int(input("Enter the first number:"))
-num2 = int(input("Enter the second number:"))
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
 
-choose_operation=input("Choose the operation (+, -, *, /):")
+choose_operation = input("Choose the operation (+, -, *, /): ")
 
 
 match choose_operation:
@@ -17,7 +17,7 @@ match choose_operation:
     
     case "/":
         if  num2 ==0:
-           print("canot divide by zero")
+           print("Cannot divide by zero.")
         else:   
            print(f"The result is {num1/num2}.")    
     case _ :
