@@ -13,9 +13,9 @@ match priority:
         
 if time_bound == "yes":
     
-    reminder= f"Reminder: '{task }' is a "+reminder+" task that requires immediate attention today!" 
+    reminder= f"Reminder:'{task }' is a "+reminder+" task that requires immediate attention today!" 
        
 if time_bound == "no":
     
-    reminder= f"Note: '{task }' is a "+reminder+" task. Consider completing it when you have free time."  
+    reminder= f"Note:'{task }' is a "+reminder+" task. Consider completing it when you have free time."  
 print(reminder)              
