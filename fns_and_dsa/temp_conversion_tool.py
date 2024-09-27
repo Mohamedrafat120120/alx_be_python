@@ -24,5 +24,5 @@ match celsius_or_fahrenheit:
         convert_to_fahrenheit(temperature)
     
     case _:
-        raise ValueError ("you must enter a valid temperature")        
+        raise ValueError ("Invalid temperature. Please enter a numeric value.")        
 
