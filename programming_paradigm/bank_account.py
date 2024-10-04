@@ -1,4 +1,4 @@
-class BankAccount():
+class BankAccount:
     def __init__(self,account_balance) -> None:
         self.account_balance=account_balance
     def deposit(self,amount):
