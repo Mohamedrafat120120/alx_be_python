@@ -8,21 +8,21 @@ class test_calculator(unittest.TestCase):
     
     def test_addition(self):
         result=self.calc.add(4,6)
-        self.assertEqual(result,10)
+        self.assertEqual(self.calc.add(4,6),10)
         
     def test_subtraction(self):
         result=self.calc.subtract(4,2)
-        self.assertEqual(result,2)
+        self.assertEqual(self.calc.subtract(4,2),2)
         
         
     def test_multiply(self):
         result=self.calc.multiply(6,6)
-        self.assertEqual(result,36)
+        self.assertEqual(self.calc.multiply(6,6),36)
         
         
     def test_divide(self):
         result=self.calc.divide(4,2)
-        self.assertEqual(result,2)
+        self.assertEqual(self.calc.divide(4,2),2)
         
         
 if __name__=="__main__":
