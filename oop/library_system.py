@@ -5,7 +5,7 @@ class Book:
         
         
     def __str__(self) -> str:
-        return f"Book: {self.title}, {self.author}"
+        return f"Book: {self.title} by {self.author}"
     
     
     
