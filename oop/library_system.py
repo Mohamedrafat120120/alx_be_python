@@ -27,7 +27,7 @@ class PrintBook(Book):
          self.page_count=page_count
          
      def __str__(self) -> str:
-          return f"{self.title}, {self.author}, {self.pages}" 
+          return f"{self.title}, {self.author}, {self.page_count}" 
       
       
       
