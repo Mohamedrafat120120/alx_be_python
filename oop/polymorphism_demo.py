@@ -7,7 +7,7 @@ class Shape:
     
     
     
-class  Rectangle(Shape):
+class Rectangle(Shape):
     def __init__(self, width, length):
         self.length=length
         self.width=width
