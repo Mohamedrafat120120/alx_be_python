@@ -14,7 +14,7 @@ class Rectangle(Shape):
         
         
     def area(self):
-        return  self.length*self.width 
+        return  self.length * self.width
     
     
     
